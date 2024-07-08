@@ -5,6 +5,6 @@ resource "aws_instance" "example" {
   key_name      = var.key_name
 
   tags = {
-    Name = "ExampleInstance"
+    Name = "var.tags"
   }
 }
