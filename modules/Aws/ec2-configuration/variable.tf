@@ -18,3 +18,7 @@ variable "key_name" {
   description = "The key name for the EC2 instance"
   type        = string
 }
+variable "tags" {
+  description  = " the tags name of ec2 instance"
+  type         = string 
+}
